@@ -24,3 +24,21 @@ PowerPoint by Uncle Bob: http://butunclebob.com/files/downloads/Bowling%20Game%2
 
 ##Solution
 A solution is provided on the branch: solution
+
+#Annotations for the five tests
+```
+    @Test
+    @DisplayName("Test 1:score should be 0 after rolling 20 0s (gutter balls)")
+
+    @Test
+    @DisplayName("Test 2:score should be 20 after rolling 20 1s")
+
+    @Test
+    @DisplayName("Test 3:score should be 20 after rolling 16 after a spare and 3 - roll 1,9,3 + 17 0s")
+
+    @Test
+    @DisplayName("Test 4:score should be 20 after rolling 16 after a strike and 3 and a 4 - roll 10,3,4 + 16 0s")
+ 
+    @Test
+    @DisplayName("Test 5:score should be 300 after a perfect game - roll 12 10s")
+```
